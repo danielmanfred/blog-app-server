@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-O backend foi construído em Node.js e baseada na arquitetura de Microsserviços.
+O backend foi construído em Node.js e baseado na arquitetura de Microsserviços.
 
 O projeto do backend possui 3 pequenas aplicações: 
 
@@ -23,13 +23,14 @@ O projeto do backend possui 3 pequenas aplicações:
 09. Google Cloud - Serviço de Hospedagem do banco de dados no Mlab 
 10. Babel - Compilador Javascript utilizado para o uso do Ecmascript 6
 
-## Passos para rodar este backend na tua máquina
+## Passos para rodar este backend em sua máquina
 
-### Clonando o projeto do Github
+### Clonando o projeto no Github
 
 1. - Abra o prompt de comando (cmd no caso do Windows)
 2. - Escolha um diretório adequado no seu computador para armazenar o projeto
 3. - Clone o projeto: git clone https://github.com/danielmanfred/blog-app-server.git
+4. - Agora entre no projeto: cd blog-app-server
 
 Para rodar este projeto na tua máquina será necessário ativar os servidores node da API Gateway e também dos dois microsserviços. 
 
