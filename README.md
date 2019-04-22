@@ -25,34 +25,44 @@ O projeto do backend possui 3 pequenas aplicações:
 
 ## Passos para rodar este backend em sua máquina
 
+Será necessário ter o Node na máquina para rodar a aplicação. 
+Você pode baixar o Node através do site oficial: https://nodejs.org/en/
+
 ### Clonando o projeto no Github
 
-1. - Abra o prompt de comando (cmd no caso do Windows)
+1. - Abra o terminal do seu sistema operacional (cmd no caso do Windows)
 2. - Escolha um diretório adequado no seu computador para armazenar o projeto
 3. - Clone o projeto: git clone https://github.com/danielmanfred/blog-app-server.git
 4. - Agora entre no projeto: cd blog-app-server
 
 Para rodar este projeto na tua máquina será necessário ativar os servidores node da API Gateway e também dos dois microsserviços. 
 
-Os passos para rodas as 3 aplicações são bastante idênticas.
+Os passos para rodas as 3 aplicações são bastante idênticos.
+
+Utilize um terminal para cada aplicação, pois em cada um deles estará rodando um servidor. 
 
 ### Rodando o microsserviço 'users'
 
 1. - Entre no diretório do microsserviço users: cd users
 2. - Instale todas as dependências do microsserviço: npm install
 3. - Rode o microsserviço: npm start
+4. - Se tudo ocorreu bem a seguinte messagem aparecerá no seu terminal: 'Server running on port 4001!' 
 
 ### Rodando o microsserviço 'posts'
 
-1. - Entre no diretório do microsserviço posts: cd posts
-2. - Instale todas as dependências do microsserviço: npm install
-3. - Rode o microsserviço: npm start
+1. - Abra um outro terminal e caminhe até o diretório da aplicação
+2. - Entre no diretório do microsserviço posts: cd posts
+3. - Instale todas as dependências do microsserviço: npm install
+4. - Rode o microsserviço: npm start
+5. - Se tudo ocorreu bem a seguinte messagem aparecerá no seu terminal: 'Server running on port 4002!'
 
 ### Rodando a API Gateway
 
-1. - Entre no diretório da API Gateway: cd api-gateway
-2. - Instale todas as dependências da API Gateway: npm install
-3. - Rode a API Gateway: npm start
+1. - Abra um outro terminal e caminhe até o diretório da aplicação
+2. - Entre no diretório da API Gateway: cd api-gateway
+3. - Instale todas as dependências da API Gateway: npm install
+4. - Rode a API Gateway: npm start
+5. - Se tudo ocorreu bem a seguinte messagem aparecerá no seu terminal: 'Server running on port 4000!'
 
 ## Rotas
 
