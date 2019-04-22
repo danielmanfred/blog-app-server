@@ -37,7 +37,7 @@ Você pode baixar o Node através do site oficial: https://nodejs.org/en/
 
 Para rodar este projeto na tua máquina será necessário ativar os servidores node da API Gateway e também dos dois microsserviços. 
 
-Os passos para rodas as 3 aplicações são bastante idênticos.
+Os passos para rodar as 3 aplicações são bastante idênticos.
 
 Utilize um terminal para cada aplicação, pois em cada um deles estará rodando um servidor. 
 
