@@ -1,0 +1,22 @@
+{
+  "name": "posts",
+  "version": "1.0.0",
+  "description": "Post Blog Microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "local": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Brito",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2"
+  }
+}
